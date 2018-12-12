@@ -6,7 +6,8 @@
   "types": "index.d.ts",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && rm -f *.tgz && \"node_modules/.bin/ngc\" -p tsconfig.json"
+    "build": "rm -rf lib && rm -f *.tgz && \"node_modules/.bin/ngc\" -p tsconfig.json",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
